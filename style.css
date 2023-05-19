@@ -47,7 +47,7 @@ p {
     margin-top: 1em;
 }
 
-h1 {
+h1, h2 {
     color: var(--clr-nue-white);
     margin-top: .8em;
 }
@@ -55,7 +55,7 @@ h1 {
 .wrapper {
     width: min(24rem, 88%);
     padding: 1.5em;
-    border-radius: 1em;
+    border-radius: 1.5em;
     background: var(--clr-nue-db);
 }
 
@@ -111,6 +111,34 @@ h1 {
 
 .wrapper[data-hidden="true"] {
     display: none;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 2em;
+}
+
+.align-center p {
+    text-align: center;
+    padding-inline: .8em;
+}
+
+.align-center img {
+    margin-top: 1em;
+}
+
+.selection {
+    margin-top: 2em;
+    padding: .5em 1em;
+    border-radius: 2em;
+    background: hsl(216, 12%, 54%, .15);
+    color: var(--clr-prim-o);
+}
+
+.align-center h2 {
+    /* margin-top: 2em; */
 }
 
 .attribution {
