@@ -1,0 +1,27 @@
+:root {
+    --clr-prim-o: hsl(25, 97%, 53%);
+    --clr-nue-white: hsl(0, 0%, 100%);
+    --clr-nue-lg: hsl(217, 12%, 63%);
+    --clr-nue-mg: hsl(216, 12%, 54%);
+    --clr-nue-db: hsl(213, 19%, 18%);
+    --clr-nue-vdb: hsl(216, 12%, 8%);
+
+    --ff-all: "Overpass", sans-serif;
+    --fw-400: 400;
+    --fw-700: 700;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: var(--ff-all);
+}
+
+p {
+    font-size: 15px;
+}
