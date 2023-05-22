@@ -80,8 +80,6 @@ h1, h2 {
     color: var(--clr-nue-mg);
     font-weight: var(--fw-700);
     padding: 1em 1.3em;
-    /* width: 3rem; */
-    /* aspect-ratio: 1; */
     border-radius: 50%;
     transition: all .1s ease-in-out;
 }
@@ -147,10 +145,6 @@ h1, h2 {
     border-radius: 2em;
     background: hsl(216, 12%, 54%, .15);
     color: var(--clr-prim-o);
-}
-
-.align-center h2 {
-    /* margin-top: 2em; */
 }
 
 .attribution {
