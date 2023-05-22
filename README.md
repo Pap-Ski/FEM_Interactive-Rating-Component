@@ -47,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-I learnt how to use `data-attribute` in HTML to manipulate how the cards in Javascript
+I learnt how to use `data-attribute` in HTML to manipulate how the cards hide in Javascript
 
 ```html
 <div class="wrapper rate-remark align-center" data-hidden="true"></div>
